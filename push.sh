@@ -1,4 +1,6 @@
 #!/bin/bash
+#commit script arg1 = message arg2..= files
+
 message=$1
 shift
 while(("$#"))
