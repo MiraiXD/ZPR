@@ -1,3 +1,4 @@
+
 all:
 	g++ -c comparator.cpp
 	g++ -c fileReader.cpp

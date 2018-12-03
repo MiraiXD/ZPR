@@ -11,7 +11,8 @@
 
 int main()
 {
-	//system("dir /B");
+	printf("start\n");
+	system("ls");
 	Menu menu;
     std::cout << "PROGRAM END\n";
 	return 1;

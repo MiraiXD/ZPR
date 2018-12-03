@@ -3,6 +3,7 @@
 #define BOOST_TEST_MODULE Hello
 #include <boost/test/included/unit_test.hpp>
 #include "pch.h"
+#include "pch.h"
 #include <iostream>
 #include <fstream>
 #include <string>
