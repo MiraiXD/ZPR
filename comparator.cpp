@@ -91,6 +91,7 @@ Comparator::Comparator(const std::string &name1, const std::string &name2)
 	fR1.setName(name1);
 	fR2.setName(name2);
 	fR1.printBuffor();
+//	compare();
 }
 
 
