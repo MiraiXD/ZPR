@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {   
     string separator="-----------\n";
-    string fileName = "test.txt";
+    string fileName = argv[1];
     string buffor, temp;
     fstream file;
     int lineCount = 0;
@@ -45,9 +45,10 @@ int main(int argc, char const *argv[])
     std::cout << buffor << endl;
      cout<<separator;
     boost::regex expr{"([ ]{1,})"};
-    std::string fmt{"_"};
+    std::string fmt{" "};
     buffor = boost::regex_replace(buffor, expr, fmt);
     cout << buffor << endl;
+    
 
     return 0;
 }
