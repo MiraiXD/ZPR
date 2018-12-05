@@ -43,3 +43,7 @@ tworzymy plik uruchomieniowy ZPR_Qt.exe, zlokalizowany w podfolderze release.
 
 
 ############################################################################
+
+W folderze "Tests" znajdują się przykładowe, proste testy jednostkowe. 
+Należy wejść do folderu i użyć "make" jak poprzednio oraz uruchomić
+plik wynikowy "TEST"
